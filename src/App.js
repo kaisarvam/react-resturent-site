@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import Home from './Components/Home/Home';
+import ProductPage from './Components/ProductPage/ProductPage';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
 
 <Route path="/home">
 <Home></Home>
+</Route>
+<Route path="/products">
+  <ProductPage></ProductPage>
 </Route>
 
 
