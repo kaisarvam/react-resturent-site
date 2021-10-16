@@ -18,12 +18,11 @@ setBestSaller(newBestSales);
           bestSaller.map((product)=>{
 return(
   <div className="d-flex justify-content-evenly align-items-center ">
-          <div className="cardx bg-light m-3">
-          <h4 className="text-uppercase mt-5"> <strong>{product.ProductName} </strong> </h4>
+          <div className="cardx bg-light m-2 p-5">
+          <h4 className="text-uppercase "> <strong>{product.ProductName.slice(0,20)} </strong> </h4>
             <div className="d-flex justify-content-evenly align-items-center ">
-              <div className="mt-2">
-               
-                <div className="mt-5">
+              <div className="">
+                <div className="">
                   <h5 className="text-uppercase mb-0">{product.ProductName.slice(0,20)}</h5>
                   <h5 className="main-heading mt-0">{product.category.toUpperCase()}</h5>
                   <div className="d-flex justify-content-evenly align-items-center text-warning" >
