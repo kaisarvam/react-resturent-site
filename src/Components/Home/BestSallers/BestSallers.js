@@ -17,8 +17,8 @@ setBestSaller(newBestSales);
         {
           bestSaller.map((product)=>{
 return(
-  <div className="d-flex justify-content-evenly align-items-center ">
-          <div className="cardx bg-light m-2 p-5">
+  <div className="d-flex justify-content-evenly align-items-center  m-2">
+          <div className="cardx bg-light p-2 m-3">
           <h4 className="text-uppercase "> <strong>{product.ProductName.slice(0,20)} </strong> </h4>
             <div className="d-flex justify-content-evenly align-items-center ">
               <div className="">

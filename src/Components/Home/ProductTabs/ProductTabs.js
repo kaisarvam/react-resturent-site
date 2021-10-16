@@ -19,33 +19,31 @@ console.log("products are : ",products)
  
     return (
         <div className="col-md-8 col-12 ">
-            <div className="m-5 p-4">
+            <div className="">
             <Tabs defaultActiveKey="Monitors" id="uncontrolled-tab-example" className="mb-3">
   <Tab eventKey="Laptops" title="Laptops">
   <div className="row">
     {products.map((product)=>{
       if(product.category === "laptop"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-          <div className="card shadow-lg w-100 p-2 m-1">
-              <div className="p-info px-3 py-3 ">
-                  <div>
-                      <h5 className="mb-3"> <span>{product.ProductName.slice(0,20)}</span> </h5>
-                  </div>
-                  <div className="p-price d-flex flex-row ms-3"> 
-                  <span>$</span>
-                      <h5 >{product.price}</h5>
-                  </div>
-                  
-                  <div className="heart"> <i className="bx bx-heart"></i> </div>
-              </div>
-              <div className="text-center p-image"> <img src={product.ProductImage}  alt="" /> </div>
-              <div className="p-about">
-                  <p>{product.BaseSpec}</p>
-              </div>
-              <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
-          </div>
-          </div>
+          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+          <div className="card card-height m-1">
+  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
+    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
+    </div>
+    <div className="card-footer">
+    <div className="d-flex justify-content-between align-items-center">
+    <button className="btn btn-info">Buy Now</button>
+    <button className="btn btn-primary">More info</button>
+    </div>
+    </div>
+  </div>
+</div>
+              
+        
+         
           );}
         return ;
     })}
@@ -56,24 +54,24 @@ console.log("products are : ",products)
     {products.map((product)=>{
       if(product.category === "monitor"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-          <div className="card shadow-lg w-100 p-2 m-1">
-              <div className="p-info px-3 py-3 ">
-                  <div>
-                      <h5 className="mb-3"> <span>{product.ProductName.slice(0,20)}</span> </h5>
-                  </div>
-                  <div className="p-price d-flex flex-row ms-3"> <span>$</span>
-                      <h5 >{product.price}</h5>
-                  </div>
-                  <div className="heart"> <i className="bx bx-heart"></i> </div>
-              </div>
-              <div className="text-center p-image"> <img src={product.ProductImage}  alt="" /> </div>
-              <div className="p-about">
-                  <p>{product.BaseSpec}</p>
-              </div>
-              <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
-          </div>
-          </div>
+          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+          <div className="card card-height m-1">
+  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
+    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
+    </div>
+    <div className="card-footer">
+    <div className="d-flex justify-content-between align-items-center">
+    <button className="btn btn-info">Buy Now</button>
+    <button className="btn btn-primary">More info</button>
+    </div>
+    </div>
+  </div>
+</div>
+              
+        
+         
           );}
         return ;
     })}
@@ -85,24 +83,24 @@ console.log("products are : ",products)
     {products.map((product)=>{
       if(product.category === "Tv"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-          <div className="card shadow-lg w-100 p-2 m-1">
-              <div className="p-info px-3 py-3 ">
-                  <div>
-                      <h5 className="mb-3"> <span>{product.ProductName.slice(0,20)}</span> </h5>
-                  </div>
-                  <div className="p-price d-flex flex-row ms-3"> <span>$</span>
-                      <h5 >{product.price}</h5>
-                  </div>
-                  <div className="heart"> <i className="bx bx-heart"></i> </div>
-              </div>
-              <div className="text-center p-image"> <img src={product.ProductImage}  alt="" /> </div>
-              <div className="p-about">
-                  <p>{product.BaseSpec}</p>
-              </div>
-              <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
-          </div>
-          </div>
+          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+          <div className="card card-height m-1">
+  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
+    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
+    </div>
+    <div className="card-footer">
+    <div className="d-flex justify-content-between align-items-center">
+    <button className="btn btn-info">Buy Now</button>
+    <button className="btn btn-primary">More info</button>
+    </div>
+    </div>
+  </div>
+</div>
+              
+        
+         
           );}
         return ;
     })}
@@ -113,24 +111,24 @@ console.log("products are : ",products)
     {products.map((product)=>{
       if(product.category === "storage"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-          <div className="card shadow-lg w-100 p-2 m-1">
-              <div className="p-info px-3 py-3 ">
-                  <div>
-                      <h5 className="mb-3"> <span>{product.ProductName.slice(0,20)}</span> </h5>
-                  </div>
-                  <div className="p-price d-flex flex-row ms-3"> <span>$</span>
-                      <h5 >{product.price}</h5>
-                  </div>
-                  <div className="heart"> <i className="bx bx-heart"></i> </div>
-              </div>
-              <div className="text-center p-image"> <img src={product.ProductImage}  alt="" /> </div>
-              <div className="p-about">
-                  <p>{product.BaseSpec}</p>
-              </div>
-              <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
-          </div>
-          </div>
+          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+          <div className="card card-height m-1">
+  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
+    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
+    </div>
+    <div className="card-footer">
+    <div className="d-flex justify-content-between align-items-center">
+    <button className="btn btn-info">Buy Now</button>
+    <button className="btn btn-primary">More info</button>
+    </div>
+    </div>
+  </div>
+</div>
+              
+        
+         
           );}
         return ;
     })}
@@ -141,24 +139,24 @@ console.log("products are : ",products)
     {products.map((product)=>{
       if(product.category === "casing"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-          <div className="card shadow-lg w-100 p-2 m-1">
-              <div className="p-info px-3 py-3 ">
-                  <div>
-                      <h5 className="mb-3"> <span>{product.ProductName.slice(0,20)}</span> </h5>
-                  </div>
-                  <div className="p-price d-flex flex-row ms-3"> <span>$</span>
-                      <h5 >{product.price}</h5>
-                  </div>
-                  <div className="heart"> <i className="bx bx-heart"></i> </div>
-              </div>
-              <div className="text-center p-image"> <img src={product.ProductImage}  alt="" /> </div>
-              <div className="p-about">
-                  <p>{product.BaseSpec}</p>
-              </div>
-              <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
-          </div>
-          </div>
+          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+          <div className="card card-height m-1">
+  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
+    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
+    </div>
+    <div className="card-footer">
+    <div className="d-flex justify-content-between align-items-center">
+    <button className="btn btn-info">Buy Now</button>
+    <button className="btn btn-primary">More info</button>
+    </div>
+    </div>
+  </div>
+</div>
+              
+        
+         
           );}
         return ;
     })}

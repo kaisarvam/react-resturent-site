@@ -22,5 +22,13 @@
         "BaseSpec":  "Motherboard Support: E-ATX, ATX, Micro-ATX, Mini-ITX , Ready for Serious Cooling , Aura Sync RGB Lighting  , Advanced I/O Panel ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/asus/rog-strix-hellios-gx601-rgb/rog-strix-hellios-gx601-rgb-228x228.jpg",
         "price": 24500
+    },
+    {
+        "id":66,
+        "category":"casing",
+        "ProductName": "Lian Li O11 Dynamic XL ROG Certified Full Tower Case (White)",
+        "BaseSpec":  "Supported Motherboard: E-ATX/ ATX/ M-ATX/ ITX , Tempered Glass: 4.0mm (Left and Front) , GPU: 446 mm, PSU: 220 mm (max 280mm) , 6 x 2.5 Drive Bays   ",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/lian-li/o11dxl/o11dxl-w-1-228x228.jpg",
+        "price": 18200
     }
 ]
