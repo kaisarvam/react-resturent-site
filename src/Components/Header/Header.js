@@ -15,7 +15,7 @@ const Header = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <img alt="" src="./image-icons/icon/burger.png"/>
+      <img alt="" src=""/>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 navbar-header-ul">
         <li className="nav-item">
           <NavLink className="nav-link " to="/home" > Home </NavLink>
@@ -24,12 +24,12 @@ const Header = () => {
           <NavLink className="nav-link" to="/link" >Link</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link disabled" to ="#" tabindex="-1" aria-disabled="true">Disabled</NavLink>
+          <NavLink className="nav-link disabled" to ="#" tabIndex="-1" aria-disabled="true">Disabled</NavLink>
         </li>
       </ul>
       <div className="header-login-signup">
           <div className="cart-icon d-flex  justify-content-center align-items-center">
-     <div className="icon-size me-3"> <i class="fas fa-shopping-cart"></i> </div>
+     <div className="icon-size me-3"> <i className="fas fa-shopping-cart"></i> </div>
       
      <div>
      <button className=" btn btn-primary  text-nowrap m-2" type="submit">Sign up</button>

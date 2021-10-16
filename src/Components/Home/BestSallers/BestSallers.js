@@ -1,19 +1,31 @@
 import React from 'react';
 import './BestSallers.css';
+import { useState,useEffect } from 'react';
+import useBestSallers from '../../../Hooks/useBestSallers';
 
 const BestSallers = () => {
+  const [bestSaller,setBestSaller] = useState([]);
+  const newBestSales = useBestSallers();
+  useEffect(()=>{
+setBestSaller(newBestSales);
+  },[newBestSales])
+  console.log("best sallers are",bestSaller);
     return (
       <div className="col-md-4 col-12 ">
         <h1 className="mt-5"> <strong> Best Sallers </strong> </h1>
-        <div className="d-flex justify-content-evenly align-items-center ">
-          <div className="cardx bg-light p-3 w-100 mt-4">
-          <h4 className="text-uppercase"> <strong>Super Bowl </strong> </h4>
+        
+        {
+          bestSaller.map((product)=>{
+return(
+  <div className="d-flex justify-content-evenly align-items-center ">
+          <div className="cardx bg-light m-3">
+          <h4 className="text-uppercase mt-5"> <strong>{product.ProductName} </strong> </h4>
             <div className="d-flex justify-content-evenly align-items-center ">
               <div className="mt-2">
                
                 <div className="mt-5">
-                  <h5 className="text-uppercase mb-0">Blanda Matt</h5>
-                  <h1 className="main-heading mt-0">VASE</h1>
+                  <h5 className="text-uppercase mb-0">{product.ProductName.slice(0,20)}</h5>
+                  <h5 className="main-heading mt-0">{product.category.toUpperCase()}</h5>
                   <div className="d-flex justify-content-evenly align-items-center text-warning" >
                       <i className="fa fa-star "></i>
                       <i className="fa fa-star"></i>
@@ -24,9 +36,9 @@ const BestSallers = () => {
               </div>
               <div className="image"> 
                 <img
-                  src="https://i.imgur.com/MGorDUi.png"
+                  src={product.ProductImage}
                   alt=""
-                  width="200px"
+                  width="130px"
                   className=" img-width"
                 />
               </div>
@@ -39,94 +51,17 @@ const BestSallers = () => {
             </div>
             <div>
               <p className="mb">
-                A great option weather you are at office or at home.{" "}
+               {product.BaseSpec.slice(0,80)} ...
               </p>
               <button className="btn btn-danger">Add to cart</button>
             </div>
           </div>
         </div>
+);
+          })
+        }
 
-        <div className="d-flex justify-content-evenly align-items-center ">
-          <div className="cardx bg-light p-3 w-100 mt-4">
-          <h4 className="text-uppercase"> <strong>Super Bowl </strong> </h4>
-            <div className="d-flex justify-content-evenly align-items-center ">
-              <div className="mt-2">
-               
-                <div className="mt-5">
-                  <h5 className="text-uppercase mb-0">Blanda Matt</h5>
-                  <h1 className="main-heading mt-0">VASE</h1>
-                  <div className="d-flex justify-content-evenly align-items-center text-warning" >
-                      <i className="fa fa-star "></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="image"> 
-                <img
-                  src="https://i.imgur.com/MGorDUi.png"
-                  alt=""
-                  width="200px"
-                  className=" img-width"
-                />
-              </div>
-            </div>
-            <div className="d-flex justify-content-evenly align-items-center mt-2 mb-2">
-              <span>Available colors</span>
-              <div className="colors">
-                <span></span> <span></span> <span></span> <span></span>
-              </div>
-            </div>
-            <div>
-              <p className="mb">
-                A great option weather you are at office or at home.{" "}
-              </p>
-              <button className="btn btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="d-flex justify-content-evenly align-items-center ">
-          <div className="cardx bg-light p-3 w-100 mt-4">
-          <h4 className="text-uppercase"> <strong>Super Bowl </strong> </h4>
-            <div className="d-flex justify-content-evenly align-items-center ">
-              <div className="mt-2">
-               
-                <div className="mt-5">
-                  <h5 className="text-uppercase mb-0">Blanda Matt</h5>
-                  <h1 className="main-heading mt-0">VASE</h1>
-                  <div className="d-flex justify-content-evenly align-items-center text-warning" >
-                      <i className="fa fa-star "></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="image"> 
-                <img
-                  src="https://i.imgur.com/MGorDUi.png"
-                  alt=""
-                  width="200px"
-                  className=" img-width"
-                />
-              </div>
-            </div>
-            <div className="d-flex justify-content-evenly align-items-center mt-2 mb-2">
-              <span>Available colors</span>
-              <div className="colors">
-                <span></span> <span></span> <span></span> <span></span>
-              </div>
-            </div>
-            <div>
-              <p className="mb">
-                A great option weather you are at office or at home.{" "}
-              </p>
-              <button className="btn btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
+      
       
         
       </div>

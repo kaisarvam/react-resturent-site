@@ -12,9 +12,7 @@ const Home = () => {
     
     return (
         <div className="container-fluid">
-            {/* <div className="header-title-section "  >
-              <strong className="background-span">   <span className="text-danger ">Resturent</span> Website </strong>
-            </div> */}
+            
             <div className="container-fluid">
             <div className="row g-5">
             <SliderSection></SliderSection>

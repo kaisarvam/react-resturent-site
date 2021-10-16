@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import Home from './Components/Home/Home';
 import ProductPage from './Components/Home/ProductPage/ProductPage';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <ProductPage></ProductPage>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

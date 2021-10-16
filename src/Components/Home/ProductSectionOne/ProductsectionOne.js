@@ -3,63 +3,28 @@ import './ProductsectionOne.css';
 
 const ProductsectionOne = () => {
     return (
-        <div className="row g-4">
-        <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-        <div className="card bg-light">
-            <div className="p-info px-3 py-3">
-                <div>
-                    <h5 className="mb-0">Beats By Dre</h5> <span>Professional Headphones</span>
-                </div>
-                <div className="p-price d-flex flex-row"> <span>$</span>
-                    <h1>299</h1>
-                </div>
-                <div className="heart"> <i className="bx bx-heart"></i> </div>
+        <section class="container-fluid overflow-hidden my-5">
+    <div class="row gy-2">
+        <div class="col-lg-4 col-md-6 col-12">
+              <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                  <h1 class="text-white">Laptop</h1>
+                  <i class="fas fa-laptop icon-size"></i>
+              </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-success d-flex align-items-center justify-content-between rounded-3">
+                <h1 class="text-white">Monitor</h1>
+                <i class="fas fa-desktop icon-size"></i>
             </div>
-            <div className="text-center p-image"> <img src="https://i.imgur.com/hpftqCo.png" alt="" /> </div>
-            <div className="p-about">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 ">
+            <div class="p-3 border bg-danger d-flex align-items-center justify-content-between rounded-3">
+                <h1 class="text-white">Components</h1>
+                <i class="fas fa-microchip icon-size"></i>
             </div>
-            <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
         </div>
-        </div>
-        <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-        <div className="card bg-light ">
-            <div className="p-info px-3 py-3">
-                <div>
-                    <h5 className="mb-0">Beats By Dre</h5> <span>Professional Headphones</span>
-                </div>
-                <div className="p-price d-flex flex-row"> <span>$</span>
-                    <h1>299</h1>
-                </div>
-                <div className="heart"> <i className="bx bx-heart"></i> </div>
-            </div>
-            <div className="text-center p-image"> <img src="https://i.imgur.com/hpftqCo.png" alt="" /> </div>
-            <div className="p-about">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
-            </div>
-            <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
-        </div>
-        </div>
-        <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center">
-        <div className="card bg-light ">
-            <div className="p-info px-3 py-3">
-                <div>
-                    <h5 className="mb-0">Beats By Dre</h5> <span>Professional Headphones</span>
-                </div>
-                <div className="p-price d-flex flex-row"> <span>$</span>
-                    <h1>299</h1>
-                </div>
-                <div className="heart"> <i className="bx bx-heart"></i> </div>
-            </div>
-            <div className="text-center p-image"> <img src="https://i.imgur.com/hpftqCo.png" alt="" /> </div>
-            <div className="p-about">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed</p>
-            </div>
-            <div className="buttons d-flex flex-row gap-3 px-3"> <button className="btn btn-danger w-100">View</button> <button className="btn btn-outline-danger w-100">Buy Now</button> </div>
-        </div>
-        </div>
-        
-        </div>
+      </div>
+</section>
     );
 };
 

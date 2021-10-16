@@ -4,9 +4,9 @@ import './BannerSection.css';
 const BannerSection = () => {
     return (
         <div className="col-md-4  col-12 ">
-            <img src="https://via.placeholder.com/200x100" alt="" className="img-fluid custom-img-banner-top " ></img>
+            <img src="./image-icons/banners/banner3.jpg" alt="" className="img-fluid custom-img-banner-top " ></img>
             <br/>
-            <img src="https://via.placeholder.com/200x100" alt=""  className="img-fluid custom-img-banner-bottom" ></img>
+            <img src="./image-icons/banners/banner4.jpg" alt=""  className="img-fluid custom-img-banner-bottom" ></img>
         </div>
     );
 };

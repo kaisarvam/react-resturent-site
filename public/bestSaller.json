@@ -1,0 +1,26 @@
+[
+    {
+        "id":15,
+        "category":"monitor",
+        "ProductName": "LG UltraGear 38GN950-B Quad HD 38 inch Curved Nano IPS LCD Gaming Monitor",
+        "BaseSpec":  "Curved UltraWide QHD+ (3840 x 1600) Nano IPS Display , G-SYNC, FreeSync , Virtually Borderless Design , IPS 1ms, 144Hz Refresh Rate ",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/ultragear-38gn950-b/ultragear-38gn950-b-228x228.jpg",
+        "price": 196500
+    },
+  {
+        "id":40,
+        "category":"storage",
+        "ProductName": "Seagate IronWolf Pro 16TB 3.5 Inch SATA 7200RPM NAS Hard Drive",
+        "BaseSpec":  "Commercial and enterprise network-attached storage (NAS) , Virtual storage , On-premise private cloud , Backup, archiving & disaster recovery ",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/ironwolf-pro-16tb/ironwolf-pro-16tb-228x228.jpg",
+        "price": 52900
+    },
+  {
+        "id":65,
+        "category":"casing",
+        "ProductName": "Asus ROG STRIX HELIOS GX601 RGB Mid Tower Gaming Casing",
+        "BaseSpec":  "Motherboard Support: E-ATX, ATX, Micro-ATX, Mini-ITX , Ready for Serious Cooling , Aura Sync RGB Lighting  , Advanced I/O Panel ",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/asus/rog-strix-hellios-gx601-rgb/rog-strix-hellios-gx601-rgb-228x228.jpg",
+        "price": 24500
+    }
+]

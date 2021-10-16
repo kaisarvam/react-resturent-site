@@ -12,7 +12,7 @@ const SliderSection = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://via.placeholder.com/350x150" className="d-block w-100" alt="..." />
+      <img src="./image-icons/banners/banner3.jpg" className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5 className="mb-0">First slide label</h5>
         <p className="mb-0">Some representative placeholder content for the first slide.</p>
@@ -24,7 +24,7 @@ const SliderSection = () => {
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://via.placeholder.com/350x150" className="d-block w-100" alt="..." />
+      <img src="./image-icons/banners/banner4.jpg" className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5 className="mb-0">Second slide label</h5>
         <p className="mb-0">Some representative placeholder content for the second slide.</p>
@@ -35,7 +35,7 @@ const SliderSection = () => {
       </div>
     </div>
     <div className="carousel-item">
-      <img src="https://via.placeholder.com/350x150" className="d-block w-100" alt="..." />
+      <img src="./image-icons/banners/banner3.jpg" className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5 className="mb-0">Third slide label</h5>
         <p className="mb-0">Some representative placeholder content for the third slide.</p>
