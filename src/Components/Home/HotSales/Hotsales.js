@@ -1,10 +1,10 @@
 import React from 'react';
-import './BestSallers.css';
 
-const BestSallers = () => {
+const Hotsales = () => {
     return (
-      <div className="col-md-4 col-12 ">
-        <h1 className="mt-5"> <strong> Best Sallers </strong> </h1>
+ 
+             <div className="col-md-4 col-12 ">
+        <h1 className="mt-5"> <strong> Hot Sales </strong> </h1>
         <div className="d-flex justify-content-evenly align-items-center ">
           <div className="cardx bg-light p-3 w-100 mt-4">
           <h4 className="text-uppercase"> <strong>Super Bowl </strong> </h4>
@@ -129,8 +129,9 @@ const BestSallers = () => {
         </div>
       
         
-      </div>
+      
+        </div>
     );
 };
 
-export default BestSallers;
+export default Hotsales;

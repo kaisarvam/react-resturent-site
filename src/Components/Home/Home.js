@@ -4,6 +4,9 @@ import ProductsectionOne from './ProductSectionOne/ProductsectionOne';
 import SliderSection from './SliderSection/SliderSection';
 import './Home.css';
 import BestSallers from './BestSallers/BestSallers';
+import ProductTabs from './ProductTabs/ProductTabs';
+import Hotsales from './HotSales/Hotsales';
+import LimitedTimeTab from './LimitedTimeTab/LimitedTimeTab';
 
 const Home = () => {
     
@@ -23,8 +26,17 @@ const Home = () => {
             <ProductsectionOne></ProductsectionOne>
             </div>
             <div className="container-fluid">
-            
+            <div className="d-md-flex d-block">
             <BestSallers></BestSallers>
+            <ProductTabs></ProductTabs>
+            </div>
+
+            <div className="d-md-flex d-block">
+              <Hotsales></Hotsales>
+              <LimitedTimeTab></LimitedTimeTab>
+
+            </div>
+            
             </div>
             </div>
         
