@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  font-size: 1rem;
+}
+#root{
+  background-color: #c4bebe;
 }
 
 .App-logo {

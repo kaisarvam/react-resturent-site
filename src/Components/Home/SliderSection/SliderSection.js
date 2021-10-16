@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const SliderSection = () => {
     return (
@@ -16,8 +17,9 @@ const SliderSection = () => {
         <h5 className="mb-0">First slide label</h5>
         <p className="mb-0">Some representative placeholder content for the first slide.</p>
         <div className="d-flex justify-content-center align-items-center mt-3 ">
-        <a href="#" className="btn btn-primary me-3">Buy</a>
-        <a href="#" className="btn btn-warning">Add To Cart</a>
+       <NavLink to="#" className="btn btn-primary me-3">Buy</NavLink >
+       <NavLink to="#" className="btn btn-warning">Add To Cart</NavLink >
+        
         </div>
       </div>
     </div>
@@ -27,8 +29,8 @@ const SliderSection = () => {
         <h5 className="mb-0">Second slide label</h5>
         <p className="mb-0">Some representative placeholder content for the second slide.</p>
         <div className="d-flex justify-content-center align-items-center mt-3 ">
-        <a href="#" className="btn btn-primary me-3">Buy</a>
-        <a href="#" className="btn btn-warning">Add To Cart</a>
+       <NavLink to="#" className="btn btn-primary me-3">Buy</NavLink >
+       <NavLink to="#" className="btn btn-warning">Add To Cart</NavLink >
         </div>
       </div>
     </div>
@@ -38,8 +40,8 @@ const SliderSection = () => {
         <h5 className="mb-0">Third slide label</h5>
         <p className="mb-0">Some representative placeholder content for the third slide.</p>
         <div className="d-flex justify-content-center align-items-center mt-3 ">
-        <a href="#" className="btn btn-primary me-3">Buy</a>
-        <a href="#" className="btn btn-warning">Add To Cart</a>
+       <NavLink to="#" className="btn btn-primary me-3">Buy</NavLink >
+       <NavLink to="#" className="btn btn-warning">Add To Cart</NavLink >
         </div>
       </div>
     </div>
