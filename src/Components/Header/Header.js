@@ -1,9 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import { useContext } from 'react';
+import { ProductContext } from '../../Contexts/AllProductContext';
 
 
 const Header = () => {
+  const data = useContext(ProductContext);
+  const cartCount = data[2][1].length;
     return (
         <div className="container-fluid bg-dark text-light fixed-top">
           
@@ -29,7 +33,8 @@ const Header = () => {
       </ul>
       <div className="header-login-signup">
           <div className="cart-icon d-flex  justify-content-center align-items-center">
-     <div className="btn btn-red icon-sizex  bg-for-shadow rounded rounded-3"> <i className="fas fa-shopping-cart"><span className="p-3"> 0 </span></i> </div>
+    <NavLink to="/cart"> <div className="btn btn-red icon-sizex  bg-for-shadow rounded rounded-3"> <i className="fas fa-shopping-cart"><span className="p-3"> {cartCount} </span></i> </div>
+    </NavLink>
       
      <div>
      <button className=" btn btn-primary  text-nowrap m-2 bg-for-shadow " >Sign up</button>

@@ -1,12 +1,14 @@
 import React from 'react';
 import './ProductPage.css';
-import useProducts from '../../../Hooks/useProducts';
-import './ProductPage.css';
 import Rating from 'react-rating';
+import { useContext } from 'react';
+import { ProductContext } from '../../../Contexts/AllProductContext';
 
 
 const ProductPage = () => {
-    const allProduct = useProducts();
+    const ProductsAll = useContext(ProductContext);
+    console.log("from All Products contex : ", ProductsAll);
+    const allProduct = ProductsAll[0];
     console.log("from product page",allProduct);
     return (
         <div className="container-fluid mt-5 pt-5">

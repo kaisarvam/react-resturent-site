@@ -1,14 +1,17 @@
 import React from 'react';
 import { createContext } from 'react';
+import useBestSallers from '../Hooks/useBestSallers';
+import useCart from '../Hooks/useCart';
 import useProducts from '../Hooks/useProducts';
 
 export const ProductContext = createContext();
 
 const AllProductContext = ({children}) => {
     const Products = useProducts();
-    console.log("From context page : ",Products)
+    const BestSaller = useBestSallers();
+    const CartAll = useCart()
     return (
-        <ProductContext.Provider value={Products}>
+        <ProductContext.Provider value={[Products,BestSaller,CartAll]}>
          {children}
         </ProductContext.Provider>
     );

@@ -7,6 +7,8 @@ import ProductPage from './Components/Home/ProductPage/ProductPage';
 import Footer from './Components/Footer/Footer';
 import ProductCategoryPage from './Components/ProductCategoryPage/ProductCategoryPage';
 import AllProductContext from './Contexts/AllProductContext';
+import NotFound from './Components/NotFound/NotFound';
+import CartPage from './Components/CartPage/CartPage';
 
 function App() {
   return (
@@ -28,6 +30,13 @@ function App() {
 
           <Route path="/product/:Category">
             <ProductCategoryPage></ProductCategoryPage>
+          </Route>
+          <Route path="/cart">
+            <CartPage></CartPage>
+          </Route>
+
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
           
 

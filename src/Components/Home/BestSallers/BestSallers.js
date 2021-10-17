@@ -1,23 +1,21 @@
 import React from 'react';
 import './BestSallers.css';
-import { useState,useEffect } from 'react';
-import useBestSallers from '../../../Hooks/useBestSallers';
+import Rating from 'react-rating';
+import { useContext } from 'react';
+import { ProductContext } from '../../../Contexts/AllProductContext';
 
 const BestSallers = () => {
-  const [bestSaller,setBestSaller] = useState([]);
-  const newBestSales = useBestSallers();
-  useEffect(()=>{
-setBestSaller(newBestSales);
-  },[newBestSales])
-  console.log("best sallers are",bestSaller);
+  
+  const productsAll = useContext(ProductContext);
+  const bestSaller = productsAll[1];
     return (
       <div className="col-md-4 col-12 ">
-        <h1 className="mt-2 pb-5"> <strong> Best Sallers </strong> </h1>
+        <h1 className="mt-2 pb-5 mb-4"> <strong> Best Sallers </strong> </h1>
         
         {
           bestSaller.map((product)=>{
 return(
-  <div className="d-flex justify-content-evenly align-items-center  m-1">
+  <div className="d-flex justify-content-evenly align-items-center  m-1" key={product.id}>
           <div className="cardx bg-light p-2 m-1">
           <h4 className="text-uppercase "> <strong>{product.ProductName.slice(0,20)} </strong> </h4>
             <div className="d-flex justify-content-evenly align-items-center ">
@@ -25,12 +23,14 @@ return(
                 <div className="">
                   <h5 className="text-uppercase mb-0">{product.ProductName.slice(0,20)}</h5>
                   <h5 className="main-heading mt-0">{product.category.toUpperCase()}</h5>
-                  <div className="d-flex justify-content-evenly align-items-center text-warning" >
-                      <i className="fa fa-star "></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                  </div>
+                  <Rating 
+               readonly
+            fullSymbol="fas fa-star text-warning "
+            emptySymbol="far fa-star text-warning "
+           initialRating={product.rating}>
+               </Rating>
+               <p className="fw-bold">Avarage Rationg: {product.rating}</p>
+                 
                 </div>
               </div>
               <div className="image"> 

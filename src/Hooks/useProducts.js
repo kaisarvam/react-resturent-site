@@ -9,12 +9,13 @@ const useProducts = () => {
   .then(response => response.json())
   .then(data => {
       setProducts(data);
-    console.log(data);
 });
     },[])
 
+   
 
-    return (products);
+
+    return products;
 };
 
 export default useProducts;

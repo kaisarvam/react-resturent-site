@@ -1,19 +1,21 @@
 import React from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
-import useProducts from '../../../Hooks/useProducts';
+import { useContext } from 'react';
+import { ProductContext } from '../../../Contexts/AllProductContext';
 import { useState ,useEffect } from 'react';
 import './ProductTabs.css'
 
 const ProductTabs = () => {
     const[products,setProducts] = useState([]);
-    const All = useProducts();
+    const All = useContext(ProductContext);
+    const addCart = All[2][0];
+    
  
 useEffect(()=>{
-    setProducts(All);
-    console.log("From Product Tab",products);
+    setProducts(All[0]);
 },[All,products])
 
-console.log("products are : ",products)
+
    
    
  
@@ -21,7 +23,7 @@ console.log("products are : ",products)
         <div className="col-md-8 col-12 ">
              <div className="">
 
-        <h1 className="mt-3 fw-bold">All Products</h1>
+        <h1 className="mt-2 mb-2 fw-bold">All Products</h1>
             <Tabs defaultActiveKey="Laptops" id="uncontrolled-tab-example" className=" mb-4">
   <Tab eventKey="Laptops" title="Laptops">
   <div className="row g-4">
@@ -34,7 +36,7 @@ console.log("products are : ",products)
               <div className="about text-center">
                   <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
               </div>
-              <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+              <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase" onClick={(e)=>{addCart(product); e.target.classList.add("disabled")}}>Buy Now</button>
                   <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
               </div>
           </div>
@@ -57,7 +59,7 @@ console.log("products are : ",products)
                 <div className="about text-center">
                     <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
                 </div>
-                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center">  <button className="btn btn-primary text-uppercase" onClick={(e)=>{addCart(product); e.target.classList.add("disabled")}}>Buy Now</button>
                     <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
                 </div>
             </div>
@@ -79,7 +81,7 @@ console.log("products are : ",products)
                 <div className="about text-center">
                     <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
                 </div>
-                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center">  <button className="btn btn-primary text-uppercase" onClick={(e)=>{addCart(product); e.target.classList.add("disabled")}}>Buy Now</button>
                     <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
                 </div>
             </div>
@@ -100,7 +102,7 @@ console.log("products are : ",products)
                 <div className="about text-center">
                     <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
                 </div>
-                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center">  <button className="btn btn-primary text-uppercase" onClick={(e)=>{addCart(product); e.target.classList.add("disabled")}}>Buy Now</button>
                     <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
                 </div>
             </div>
@@ -121,7 +123,7 @@ console.log("products are : ",products)
                 <div className="about text-center">
                     <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
                 </div>
-                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center">  <button className="btn btn-primary text-uppercase" onClick={(e)=>{addCart(product); e.target.classList.add("disabled")}}>Buy Now</button>
                     <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
                 </div>
             </div>

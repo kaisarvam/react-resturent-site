@@ -3,10 +3,18 @@ import { useContext } from 'react';
 import Rating from 'react-rating';
 import {ProductContext} from '../../Contexts/AllProductContext';
 import { useParams } from 'react-router';
+import { useState ,useEffect } from 'react';
 
 
 export default function ProductCategoryPage() {
-    const  allProduct = useContext(ProductContext);
+  const [allProduct,setAllProduct] = useState([]);
+const productsAll = useContext(ProductContext);
+console.log("fromcategory wise product : ",productsAll)
+  useEffect(() => {
+    setAllProduct(productsAll[0]);
+  }, [productsAll])
+
+    
     console.log("context data in products category page is  : ",allProduct);
     const {Category} = useParams();
     console.log("Category is :",Category);
@@ -23,7 +31,7 @@ export default function ProductCategoryPage() {
                     allProduct.map((product)=>{
                     if(Category === 'all'){
                         return(
-                            <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+                            <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center " key={product.id}>
           <div className="card card-height m-1 shadow-dark-card">
   <img src={product.ProductImage} className="img-thumbnail" alt="..." />
   <div className="card-body">
@@ -54,7 +62,7 @@ export default function ProductCategoryPage() {
                         );
                     }else if(product.category===Category){
                             return(
-                                <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+                                <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center " key={product.id}>
               <div className="card card-height m-1 shadow-dark-card">
       <img src={product.ProductImage} className="img-thumbnail" alt="..." />
       <div className="card-body">
