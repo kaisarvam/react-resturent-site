@@ -30,5 +30,14 @@
         "BaseSpec":  "Supported Motherboard: E-ATX/ ATX/ M-ATX/ ITX , Tempered Glass: 4.0mm (Left and Front) , GPU: 446 mm, PSU: 220 mm (max 280mm) , 6 x 2.5 Drive Bays   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/lian-li/o11dxl/o11dxl-w-1-228x228.jpg",
         "price": 18200
+    },
+    {
+        "id":63,
+        "category":"casing",
+        "ProductName": "Antec TORQUE Black + White ATX Mid Tower Gaming Casing",
+        "BaseSpec":  "Motherboard Support: E-ATX, ATX, Micro-ATX, ITX , Precision Cut Craftsmanship , Unrivaled Performance and Beauty ,Extensive Liquid Cooling Support ",
+        "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/antec/torque-black-white/torque-black-white-3-228x228.jpg",
+        "price": 28000
     }
+  
 ]

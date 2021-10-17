@@ -1,0 +1,27 @@
+
+    {products.map((product)=>{
+      if(product.category === "laptop"){
+        return (
+          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
+          <div className="card card-height m-1">
+  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
+  <div className="card-body">
+    <h5 className="card-title  ">{product.ProductName.slice(0,15)}</h5>
+    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
+    </div>
+    <div className="card-footer m-2">
+    
+      <h4 className="m-1 p-2  "> Current Price : <span className="fw-bold"> {product.price}  BDT </span></h4>
+    <div className="d-flex justify-content-evenly align-items-center">
+    <button className="btn btn-warning">Buy Now</button>
+    <button className="btn btn-primary">More info</button>
+    </div>
+    </div>
+  </div>
+</div>
+              
+        
+         
+          );}
+        return ;
+    })}

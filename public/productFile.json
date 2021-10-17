@@ -5,7 +5,10 @@
         "ProductName": "MSI Raider GE66 11UG Core i9 11th Gen RTX3070 8GB Graphics 15.6 inch FHD 300Hz Gaming Laptop",
         "BaseSpec": "Intel Core i9-11980HK Processor (24M Cache, 3.30 GHz up to 4.90 GHz) ,  32GB 3200MHz Ram +1TB SSD  , FHD (1920 x 1080) 300Hz Display",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/raider-ge66-11ug/raider-ge66-11ug-01-228x228.jpg",
-        "price" : 290000
+        "price" : 290000,
+        "discount" :25,
+        "rating" :4.5, 
+        "rated" :2514
 
     },
     {
@@ -14,7 +17,10 @@
         "ProductName": "MSI GE76 Raider 11UH Core i9 11th Gen RTX3080 16GB Graphics 17.3 inch FHD Gaming Laptop",
         "BaseSpec":  "Intel Core i9-11980HK Processor (24M Cache, 3.30 GHz up to 5.00 GHz) , 32GB 3200MHz RAM+ 2TB SSD , FHD (1920x1080) 360Hz IPS Display ,Gpu RTX 3080 ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/ge76-raider-11uh/ge76-raider-11uh-01-228x228.jpg ",
-        "price": 435000
+        "price": 435000,
+        "discount" :15,
+        "rating" :4.0, 
+        "rated" :2300
     },
     {
         "id":3,
@@ -22,7 +28,10 @@
         "ProductName": "Razer Blade 15 Studio Edition Core i7 10th Gen 15.6 inch UHD OLED 4K Touch Laptop With Quadro RTX 5000 16GB Graphics",
         "BaseSpec":  "Intel Core i7-10875H Processor (12M Cache, 2.30 GHz up to 5.10 GHz) , OLED 4K Touch 60Hz ,1TB SSD (M.2 NVMe PCIe 3.0 x4) , 32GB (16GB x 2) DDR4-2933MHz ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/studio-edition/studio-edition-228x228.jpg",
-        "price": 399000
+        "price": 399000,
+        "discount" :20,
+        "rating" :3.5, 
+        "rated" :1736
     },
     {
         "id":4,
@@ -30,7 +39,10 @@
         "ProductName": " HP ZBook Create G7 Core i9 10th Gen RTX 2080 8GB Graphics 15.6 inch UHD Laptop",
         "BaseSpec":  "Intel Core i9-10885H Processor (16MB Cache, 2.40 GHz to 5.30 GHz) ,32 GB DDR4 3200MHz SDRAM , 1 TB PCIe NVMe TLC SED SSD , RTX 2080 Super Max-Q 8GB Graphics ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/workstation/hp-brand/zbook-create-g7/zbook-create-g7-01-228x228.jpg",
-        "price": 399000 
+        "price": 399000 ,
+        "discount" :10,
+        "rating" :4.0, 
+        "rated" :3985
     },
     {
         "id":5,
@@ -38,7 +50,10 @@
         "ProductName": "MSI GS76 Stealth 11UH-029US Core i7 11th Gen 32GB RAM 1TB SSD RTX3080 16GB Graphics 17.3 inch FHD Gaming Laptop",
         "BaseSpec":  "Intel Core i7-11800H Processor (24M Cache, 2.30 GHz up to 4.60 GHz) , 32GB (16Gx2) DDR4 3200MHz RAM ,1TB NVMe PCIe Gen3x4 SSD ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/gs76-11uh/gs76-11uh-01-228x228.jpg",
-        "price": 370000
+        "price": 370000,
+        "discount" :30,
+        "rating" :4.6, 
+        "rated" :2914
     },
     {
         "id":6,
@@ -46,7 +61,10 @@
         "ProductName": "Razer Blade 15 Advanced Model Core i7 10th RTX 3080 16GB Graphics 15.6 inch OLED 4K Touch Gaming Laptop",
         "BaseSpec":  "Intel Core i7-10875H Processor (16M Cache, 2.30 GHz up to 5.10 GHz) ,OLED (3840x2160) 4K Touch , 32GB DDR4 Ram + 1TB PCIe SSD  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/blade-15/base-model_1-228x228.jpg",
-        "price": 360000
+        "price": 360000,
+        "discount" :18,
+        "rating" :4.2, 
+        "rated" :1639
     },
     {
         "id":7,
@@ -54,7 +72,10 @@
         "ProductName": "HP ZBook Fury G7 Xeon W-10885M 15.6 inch UHD Mobile Workstation Laptop",
         "BaseSpec":  "Intel Xeon W-10885M Processor (16M Cache, 2.40 GHz up to 5.30 GHz) , 16 GB DDR4-2666 ECC SDRAM , 1 TB PCIe NVMe M.2 SSD ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/workstation/hp-brand/zbook-fury-g7/zbook-fury-g7-01-228x228.jpg",
-        "price": 355000
+        "price": 355000,
+        "discount" :25,
+        "rating" :2.5, 
+        "rated" :2895
     },
     {
         "id":8,
@@ -62,7 +83,10 @@
         "ProductName": "Microsoft Surface Book 3 Core i7 10th Gen 2TB SSD GTX 1660Ti 6GB Graphics 15 inch multi-touch G5, (SNJ-00001) Silver",
         "BaseSpec":  "Intel Core i7-1065G7 Processor (8M Cache, 1.30 GHz up to 3.90 GHz) , 32GB 3733Mhz RAM +2TB PCIe SSD , (3240 x 2160) multi-touch G5 Display ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-book-3/surface-book-3-228x228.jpg",
-        "price": 350000
+        "price": 350000,
+        "discount" :30,
+        "rating" :3.8, 
+        "rated" :3628
     },
     {
         "id":9,
@@ -70,7 +94,10 @@
         "ProductName": "MSI Raider GE66 10SFS Dragonshield Limited Edition 2020 Core i9 10th Gen RTX 2070 Super 15.6 inch FHD Gaming Laptop",
         "BaseSpec":  "Intel Core i9-10980HK Processor (16MB Cache, 2.40 GHz up to 5.30 GHz) , 32GB RAM + 1TB NVMe PCIe SSD ,  FHD (1920 x 1080) 300Hz Display",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/raider-ge66-10sfs-dragonshield/ge66-dragonshield-10sfs-228x228.jpg",
-        "price": 320000
+        "price": 320000,
+        "discount" :35,
+        "rating" :2.5, 
+        "rated" :3564
     },
     {
         "id":10,
@@ -78,7 +105,10 @@
         "ProductName": "HP ZBook Studio G7 Xeon W-10885M 15.6 inch UHD Mobile Workstation Laptop",
         "BaseSpec":  "Intel Xeon W-10885M Processor (16M Cache, 2.40 GHz up to 5.30 GHz) , 16 GB DDR4-2666 ECC SDRAM , 1 TB PCIe NVMe M.2 SSD ,Quadro T1000 4GB with Max-Q Graphics ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/workstation/hp-brand/zbook-power-g7/zbook-power-g7-01-228x228.jpg",
-        "price": 315000
+        "price": 315000,
+        "discount" :15,
+        "rating" :3.5, 
+        "rated" :3352
     },
     {
         "id":11,
@@ -86,7 +116,10 @@
         "ProductName": "Apple MacBook Pro 13-Inch 10th Gen Core i7-2.3GHz, 32GB RAM, 2TB SSD, Touch Bar, Space Gray 2020 (MWP62LL/A)",
         "BaseSpec":  "Intel Core i7 10th Gen -2.3GHz Processor , 32GB LPDDR4X RAM , 2TB SSD , (2560 x 1600) LED-backlit Retina Display ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro/space-gray/macbook-pro-01-228x228.jpg",
-        "price": 305000
+        "price": 305000,
+        "discount" :25,
+        "rating" :4.5, 
+        "rated" :2514
     },
     {
         "id":12,
@@ -94,7 +127,10 @@
         "ProductName": "Asus ROG Strix Scar 15 G533QS Ryzen 9 RTX3080 16GB Graphics 15.6 inch FHD Gaming Laptop",
         "BaseSpec":  "AMD Ryzen 9 5900HX (3.30GHz Up to 4.6GHz,16MB L3 Cache) , 32GB DDR4 3200MHz RAM , 1TB PCIe M.2 NVMe G3 SSD  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/rog-strix-scar-15/rog-strix-scar-15-001-228x228.jpg",
-        "price": 299000
+        "price": 299000,
+        "discount" :20,
+        "rating" :4.9, 
+        "rated" :3594
     },
     {
         "id":13,
@@ -102,7 +138,10 @@
         "ProductName": "Asus ProArt Display PA32UCX-PK 32 inch 4K HDR IPS Monitor",
         "BaseSpec":  "ASUS Off-Axis Contrast Optimization Technology , 4K HDR (3840 x 2160) IPS Diaplay , 1,152-zone mini-LED backlight ,True 10 bit color, Quantum-dot technology ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/proart-display-pa32ucx-pk/proart-display-pa32ucx-pk-01-228x228.jpg",
-        "price": 330000
+        "price": 330000,
+        "discount" :15,
+        "rating" :4.5, 
+        "rated" :3894
     },
     {
         "id":14,
@@ -110,7 +149,10 @@
         "ProductName": "BenQ SW321C 32 inch 4K UHD IPS Photographer Monitor",
         "BaseSpec":  "  4K (3840 x 2160) UHD Display , 99% Adobe RGB Color Space , Hardware Calibration , Color Accuracy, IPS technology ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/benq/sw270c/sw270c-1-228x228.jpg ",
-        "price":  268000
+        "price":  268000,
+        "discount" :30,
+        "rating" :4.0, 
+        "rated" :2985
     },
     {
         "id":15,
@@ -118,7 +160,10 @@
         "ProductName": "LG UltraGear 38GN950-B Quad HD 38 inch Curved Nano IPS LCD Gaming Monitor",
         "BaseSpec":  "Curved UltraWide QHD+ (3840 x 1600) Nano IPS Display , G-SYNC, FreeSync , Virtually Borderless Design , IPS 1ms, 144Hz Refresh Rate ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/ultragear-38gn950-b/ultragear-38gn950-b-228x228.jpg",
-        "price": 196500
+        "price": 196500,
+        "discount" :25,
+        "rating" :4.5, 
+        "rated" :2594
     },
     {
         "id":16,
@@ -126,7 +171,10 @@
         "ProductName": "Samsung Odyssey C49G95TSSW 49'' G-Sync 240Hz Curved 2k Gaming Monitor",
         "BaseSpec":  "Flicker Free, G-Sync, FreeSync Premium Pro , 2k (5120 x 1440) LED Display , Response Time: 1(GTG) ms , Refresh Rate: Max 240Hz ",
         "ProductImage": " https://www.startech.com.bd/image/cache/catalog/monitor/samsung/c49g95tssw/c49g95tssw-1-228x228.jpg",
-        "price": 188000
+        "price": 188000,
+        "discount" :10,
+        "rating" :3.5, 
+        "rated" :3589
     },
     {
         "id":17,
@@ -134,7 +182,10 @@
         "ProductName": "ASUS ProArt PA32UC-K 32inch 4K-UHD IPS HDR Eye Care Professional Monitor",
         "BaseSpec":  "(3840 x 2160) 4K UHD IPS Display , 384-zone direct-lit LED backlight matrix , HDR-10 and HLG for lifelike visuals , Wide color gamut technology ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/proart-pa32uc-k/proart-pa32uc-k-001-228x228.jpg",
-        "price": 188000
+        "price": 188000,
+        "discount" :20,
+        "rating" :4.5, 
+        "rated" :2924
     },
     {
         "id":18,
@@ -142,7 +193,10 @@
         "ProductName": "LG LG34WK95U-W 34 inch UltraWide 5K2K IPS LED Monitor",
         "BaseSpec":  "Resolution: 5120 x 2160 , Response Time: 5ms , Contrast Ratio: 1200:1 (Typ) , Brightness: 450 (Typ),360 (min) cd/m2 ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/lg-monitor/lg34wk95u-w/lg34wk95u-w-1-228x228.jpg",
-        "price": 175000
+        "price": 175000,
+        "discount" :25,
+        "rating" :1.9, 
+        "rated" :1523
     },
     {
         "id":19,
@@ -150,7 +204,10 @@
         "ProductName": "ASUS ProArt PA32UC 32 inch 4K UHD HDR Professional IPS LCD Monitor",
         "BaseSpec":  "Thunderbolt 3 supports data transfers , HDR-10 and HLG ,  100,000,000:1 Contrast Ratio , ASUS LED Driving Technology  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/proart-pa32uc/proart-pa32uc-228x228.jpg",
-        "price": 166000
+        "price": 166000,
+        "discount" :15,
+        "rating" :4.6, 
+        "rated" :3592
     },
     {
         "id":20,
@@ -158,7 +215,10 @@
         "ProductName": "MSI PRESTIGE PS341WU 34 inch 5K, 8MS NANO IPS Monitor",
         "BaseSpec":  " PIP & PBP Mode , Display Ratio: 5K2K 21:9 , Create & Enjoy with HDR , Intuitive Screen Assitance  ",
         "ProductImage": " https://www.startech.com.bd/image/cache/catalog/monitor/msi/prestige-ps341wu/prestige-ps341wu-228x228.jpg",
-        "price": 145000
+        "price": 145000,
+        "discount" :5,
+        "rating" :4.5, 
+        "rated" :3994
     },
     {
         "id":21,
@@ -166,7 +226,10 @@
         "ProductName": "Samsung 49 inch LC49HG90DMUXEN Curved QLED 144 Hz Gaming Monitor",
         "BaseSpec":  "Type Curved QLED , Screen Curvature 1,800 R , 144 hz refresh rate ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/samsung/samsung-lc49hg90dmuxen/samsung-lc49hg90dmuxen-1-228x228.jpg",
-        "price": 140000
+        "price": 140000,
+        "discount" :18,
+        "rating" :3.5, 
+        "rated" :2514
     },
     {
         "id":22,
@@ -174,7 +237,10 @@
         "ProductName": "LG 34GN850-B 34-Inch Curved UltraGear Nano IPS 144Hz Gaming Monitor",
         "BaseSpec":  "34-inch UltraWide QHD (3440x1440) Curved , Nano IPS 1ms (GtG), VESA DisplayHDR 400 ,  NVIDIA G-SYNC Compatible , 144Hz (160Hz - Overclock)",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/34gn850-b/34gn850-b-05-228x228.jpg",
-        "price": 137000
+        "price": 137000,
+        "discount" :30,
+        "rating" :4.5, 
+        "rated" :4021
     },
     {
         "id":23,
@@ -182,7 +248,10 @@
         "ProductName": "Asus ROG Strix XG438Q 120Hz 4K UHD Gaming Monitor",
         "BaseSpec":  "Resolution: 4K UHD (3840 x 2160) , FreeSync 2 HDR, DisplayHDR 600 , DCI-P3 90%, Shadow Boost , 10W Speaker*2, Remote Control ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/rog-strix-xg438q/rog-strix-xg438q-01-228x228.jpg",
-        "price": 132000
+        "price": 132000,
+        "discount" :10,
+        "rating" :3.6, 
+        "rated" :3110
     },
     {
         "id":24,
@@ -190,7 +259,10 @@
         "ProductName": "BenQ PD3220U 32” 4K IPS Thunderbolt 3 Monitor with Display P3",
         "BaseSpec":  "4K HDR10 video and Thunderbolt 3 Connectivity , (3840 x 2160)4K UHD IPS LED , 100% sRGB & 95% Display P3 color ,  Native Contrast(typ.): 1000:1 ",
         "ProductImage": " https://www.startech.com.bd/image/cache/catalog/monitor/benq/pd3220u/pd3220u-1-228x228.jpeg",
-        "price": 124000
+        "price": 124000,
+        "discount" :8,
+        "rating" :4.5, 
+        "rated" :1210
     },
     {
         "id":25,
@@ -198,7 +270,10 @@
         "ProductName": "Sony Bravia 85X9000H 85 Inch 4K Ultra HD Smart Android LED TV ",
         "BaseSpec":  " UHD (3840 x 2160) 4K LED Display , USB, HDMI, Headphone port , Built In Wi-Fi, Storage Capacity 16GB , DTS Digital Surround ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/sony/x9000h/x9000h-01-228x228.jpg",
-        "price": 350000
+        "price": 350000,
+        "discount" :35,
+        "rating" :3.5, 
+        "rated" :4512
     },
     {
         "id":26,
@@ -206,7 +281,10 @@
         "ProductName": "Samsung 65Q800T 65 Inch 8K QLED Smart TV",
         "BaseSpec":  "With Alexa Built-in, Ultimate 8K Dimming Pro , 8K QLED (7680 x 4320) Display , Connectivity: HDMI x 4, USB x 2 ,  Voice Assistant with One Remote Control ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/samsung/q800t/q800t-01-228x228.jpg",
-        "price": 340000
+        "price": 340000,
+        "discount" :10,
+        "rating" :4.5, 
+        "rated" :2661
     },
     {
         "id":27,
@@ -214,7 +292,10 @@
         "ProductName": "Sony Bravia 85X8000H 85 inch Smart Android 4K LED TV",
         "BaseSpec":  "X1 4K HDR Picture Processor , More colour, contrast and clarity , Clear multidimensional sound , 16GB On-board storage  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/sony/85x8000h/85x8000h-front-228x228.jpg",
-        "price": 320000
+        "price": 320000,
+        "discount" :5,
+        "rating" :3.8, 
+        "rated" :1995
     },
     {
         "id":28,
@@ -222,7 +303,10 @@
         "ProductName": "Sony BRAVIA 65A9G 65-Inch OLED 4K Ultra HD Smart Android TV",
         "BaseSpec":  "OLED 4K UHD(3840x2160) Display , HDMI, USB, Built In Wi-Fi, Ethernet , X1 Ultimate picture processor , Storage Capacity: 16GB ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/sony/bravia-65a9g/bravia-65a9g-01-228x228.jpg",
-        "price": 305000
+        "price": 305000,
+        "discount" :20,
+        "rating" :5.0, 
+        "rated" :3956
     },
     {
         "id":29,
@@ -230,7 +314,10 @@
         "ProductName": "Sony BRAVIA 65A8H 65-inch OLED 4K Ultra HD Smart TV",
         "BaseSpec":  "  UHD (3840 x 2160) OLED 4K HD Display , Storage: 16GB, 2.0 Stereo Sound , USB, HDMI, Audio Port, Ethernet Sockets ,  Smart Remote, Voice Search ",
         "ProductImage": " https://www.startech.com.bd/image/cache/catalog/television/sony/a8h/a8h-01-228x228.jpg",
-        "price": 275000
+        "price": 275000,
+        "discount" :40,
+        "rating" :4.5, 
+        "rated" :4001
     },
     {
         "id":30,
@@ -238,7 +325,10 @@
         "ProductName": "Samsung 55Q900R 55-Inch 8K QLED Smart TV",
         "BaseSpec":  " 8K UHD (7680 × 4320) QLED Smart , Motion Rate 240 Smart,with Quantum Dot , Wi-Fi. Bluetooth, 3 USB Connections , 100% Color Volume, Ambient Mode ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/samsung/q900r/q900r-001-228x228.jpg",
-        "price": 275000
+        "price": 275000,
+        "discount" :20,
+        "rating" :3.5, 
+        "rated" :2967
     },
     {
         "id":31,
@@ -246,7 +336,10 @@
         "ProductName": "Samsung Q70T 75 inch QLED UHD 4K Smart TV",
         "BaseSpec":  "75 inch 4K (3840 x 2160) Display  ,Quantum Processor 4K Lite  ,Motion Rate 240, Ambient Mode+ ,Dual LED, Real Game Enhancer+",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/samsung/q70t/q70t-228x228.jpg",
-        "price": 265000
+        "price": 265000,
+        "discount" :10,
+        "rating" :3.0, 
+        "rated" :1514
     },
     {
         "id":32,
@@ -254,7 +347,10 @@
         "ProductName": "Samsung Q60T 75 inch QLED UHD 4K Smart TV",
         "BaseSpec":  " 100% Color Volume with Quantum Dot , Quantum Processor 4K Lite, Eco Sensor , 3 HDMI, 2  USB Connections  ,Dual LED, Game Mode, Ambient Mode" ,
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/samsung/q60t/q60t-228x228.jpg",
-        "price": 245000
+        "price": 245000,
+        "discount" :25,
+        "rating" :2.0, 
+        "rated" :3214
     },
     {
         "id":33,
@@ -262,7 +358,10 @@
         "ProductName": "Sony Bravia 75X9000H 75 Inch 4K Ultra HD Smart Android LED TV",
         "BaseSpec":  "UHD (3840 x 2160) 4K LED Display , USB, HDMI, Headphone port ,Built In Wi-Fi, Storage Capacity 16GB , DTS Digital Surround ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/sony/x9000h/x9000h-01-228x228.jpg",
-        "price": 230000
+        "price": 230000,
+        "discount" :28,
+        "rating" :4.0, 
+        "rated" :2334
     },
     {
         "id":34,
@@ -270,7 +369,10 @@
         "ProductName": "Sony Bravia XR 55A80J 55 inch 4K Ultra HD Android Smart OLED Alexa Compatible Google TV",
         "BaseSpec":  "Cognitive Processor XR, Picture Processor , XR Picture, Contrast, OLED Contrast , Live Colour Technology , DTS Digital Surround ,  On-Board Storage: 16GB ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/sony/55a80j/sony-bravia-xr-55a80j-55-inch-4k-ultra-hd-android-smart-oled-alexa-compatibility-google-tv-228x228.jpg",
-        "price": 205000
+        "price": 205000,
+        "discount" :15,
+        "rating" :3.5, 
+        "rated" :3251
     },
     {
         "id":35,
@@ -278,7 +380,10 @@
         "ProductName": "Sony BRAVIA 55A8G 55 Inch OLED 4K Ultra HD Smart TV",
         "BaseSpec":  "4K Ultra HD , Audio power output 10W+10W+10W+10W , Resolution: 3840 x 2160p , Android Operating system ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/sony/55a8g/55a8g-001-228x228.jpg",
-        "price": 205000
+        "price": 205000,
+        "discount" :20,
+        "rating" :2.5, 
+        "rated" :2514
     },
     {
         "id":36,
@@ -286,7 +391,10 @@
         "ProductName": "Sony 75X8000H 75 Inch Android 4K Ultra HD Smart LED TV",
         "BaseSpec":  "Ultra HD (3840 x 2160) Pixels, 4K, Direct LED , USB, HDMI, RS-232C Input , Bass Reflex & X-Balanced Speaker ,  Full Range (Bass Reflex) x 2  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/television/sony/75x8000h/75x8000h-01-228x228.jpg",
-        "price": 195000
+        "price": 195000,
+        "discount" :10,
+        "rating" :3.0, 
+        "rated" :3251
     },
     {
         "id":37,
@@ -294,7 +402,10 @@
         "ProductName": "Toshiba P300 1TB Desktop PC Internal Hard Drive",
         "BaseSpec":  " Storage: 1TB; RPM: 7200 rpm ,Seek Time: 4.17ms, Buffer: 64MB , Form Factor: 3.5 Inch , Interface: SATA 6Gb/s ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/p300-1tb/p300-1tb-1-228x228.jpg",
-        "price": 3590
+        "price": 3590,
+        "discount" :25,
+        "rating" :3.5, 
+        "rated" :921
     },
     {
         "id":38,
@@ -302,7 +413,10 @@
         "ProductName": "Seagate Exos X18 18TB 7200rpm SATA III 3.5 inch Internal HDD",
         "BaseSpec":  " 18TB Storage Capacity , SATA III 6 Gb/s Interface , 3.5 inch Form Factor ,256MB Cache ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/exos-x18/exos-x18-01-228x228.jpg",
-        "price": 85700
+        "price": 85700,
+        "discount" :18,
+        "rating" :4.0, 
+        "rated" :973
     },
     {
         "id":39,
@@ -310,7 +424,10 @@
         "ProductName": "Seagate Exos X16 16TB 3.5 Inch SATA 7200RPM Enterprise HDD",
         "BaseSpec":  "Hyperscale applications/cloud data centers ,High-capacity density RAID storage , Form Factor 3.5inch , Interface: SATA 6 Gb/s  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/exos-x16/exos-x16-01-228x228.jpg",
-        "price": 67000
+        "price": 67000,
+        "discount" :15,
+        "rating" :4.5, 
+        "rated" :3991
     },
     {
         "id":40,
@@ -318,7 +435,10 @@
         "ProductName": "Seagate IronWolf Pro 16TB 3.5 Inch SATA 7200RPM NAS Hard Drive",
         "BaseSpec":  "Commercial and enterprise network-attached storage (NAS) , Virtual storage , On-premise private cloud , Backup, archiving & disaster recovery ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/ironwolf-pro-16tb/ironwolf-pro-16tb-228x228.jpg",
-        "price": 52900
+        "price": 52900,
+        "discount" :20,
+        "rating" :4.0, 
+        "rated" :2852
     },
     {
         "id":41,
@@ -326,7 +446,10 @@
         "ProductName": "Toshiba MG08 Enterprise 16TB 3.5 Inch SATA 7200RPM HDD",
         "BaseSpec":  "Form Factor: 3.5-inch , MTTF: 2,500,000 hours , Interface: SATA 6 Gbit/s ,  Rotation Speed: 7200 rpm ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/mg08-enterprise-16tb/mg08-enterprise-16tb-228x228.jpg",
-        "price": 50000
+        "price": 50000,
+        "discount" :10,
+        "rating" :3.5, 
+        "rated" :2514
     },
     {
         "id":42,
@@ -334,7 +457,10 @@
         "ProductName": "Seagate IronWolf 12TB NAS 7200 RPM 3.5 inch Internal HDD",
         "BaseSpec":  "Interface : SATA 6.0Gb/s, RPM: 7200 RPM ,  Multimedia Server Storage , Desktop RAID and Servers , Form Factor: 3.5inch , Private Cloud ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/ironwolf/ironwolf-010-228x228.jpg",
-        "price": 41000
+        "price": 41000,
+        "discount" :30,
+        "rating" :4.8, 
+        "rated" :4012
     },
     {
         "id":43,
@@ -342,7 +468,10 @@
         "ProductName": "Seagate Ironwolf 10TB Home, SOHO and Small Business NAS HDD",
         "BaseSpec":  "1- to 8-bay network-attached storage (NAS) , Storage Capacity: 10TB , Cache: Up to 256 MB , Interface: SATA 6Gb/s   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/ironwolf-10tb/ironwolf-10tb-228x228.jpg",
-        "price": 32500
+        "price": 32500,
+        "discount" :25,
+        "rating" :4.0, 
+        "rated" :5521
     },
     {
         "id":44,
@@ -350,7 +479,10 @@
         "ProductName": "Apple AirPort Time Capsule 2TB HDD",
         "BaseSpec":  " Apple AirPort Time Capsule Capacity 2 TB HDD , usb 2 , Built-in power supply ,  Ethernet   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/hdd/apple/airport/apple-2tb-hdd-228x228.jpg",
-        "price": 30500
+        "price": 30500,
+        "discount" :10,
+        "rating" :4.5, 
+        "rated" :3255
     },
     {
         "id":45,
@@ -358,7 +490,10 @@
         "ProductName": "MSI SPATIUM M480 2TB PCIe 4.0 NVMe M.2 SSD ",
         "BaseSpec":  "Interface: PCIe NVMe 1.4 Gen4x4 , Sequential Read/Write: 7000/6800 MB/s , PHISON E18 Controller ,Up to 1400 TBW  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ssd/msi/spatium-m480/spatium-m480-05-228x228.jpg",
-        "price": 43500
+        "price": 43500,
+        "discount" :15,
+        "rating" :2.8, 
+        "rated" :2514
     },
     {
         "id":46,
@@ -366,7 +501,10 @@
         "ProductName": "Silicon Power 2TB M.2 PCIe NVMe Gen3x4 SSD ",
         "BaseSpec":  "Interface: PCIe Gen 3x4 , Dual Self-Cooling System , 3D QLC NAND , Powered By Multiple Technologies  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ssd/silicon-power/nvme-ssd/2tb-nvme-ssd-001-228x228.jpg",
-        "price": 28000
+        "price": 28000,
+        "discount" :25,
+        "rating" :4.5, 
+        "rated" :5121
     },
     {
         "id":47,
@@ -374,7 +512,10 @@
         "ProductName": "Apacer PPSS25-R 2TB 2.5 inch NAS SATA III SSD",
         "BaseSpec":  "Interface Type: SATA III, Form Factor: 2.5 inch ,Sustained Write: 500 MB/s , Sustained Read: 500 MB/s ,  7-Pin Signal, 15-Pin Power ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ssd/apacer/ppss25-r/ppss25-r-01-228x228.jpg",
-        "price": 28000
+        "price": 28000,
+        "discount" :5,
+        "rating" :3.0, 
+        "rated" :2961
     },
     {
         "id":48,
@@ -382,7 +523,10 @@
         "ProductName": "Corsair Force MP600 1TB Gen.4 PCIe NVMe M.2 SSD",
         "BaseSpec":  "Ready For Ryzen , PCIE 4.0 (GEN4) Technology , High-Density 3D TLC NAND Memory , Lower Temperatures   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ssd/corsair/force-mp600/force-mp600-228x228.png",
-        "price": 23900
+        "price": 23900,
+        "discount" :10,
+        "rating" :2.5, 
+        "rated" :3125
     },
     {
         "id":49,
@@ -390,7 +534,10 @@
         "ProductName": "Corsair Dominator Platinum RGB 16GB 4000MHz DDR4 RAM (Black)",
         "BaseSpec":  "16GB 4000MHz DDR4 DRAM , Tested Voltage: 1.35V ,Package Memory Format: DIMM , Heat Spreader: Anodized Aluminum ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/dominator-platinum-rgb-16gb/dominator-platinum-10-228x228.jpg",
-        "price": 23990
+        "price": 23990,
+        "discount" :25,
+        "rating" :4.9, 
+        "rated" :1517
     },
     {
         "id":50,
@@ -398,7 +545,10 @@
         "ProductName": "TEAM DELTA 32GB 3200MHz RGB DDR4 Desktop RAM",
         "BaseSpec":  "Full frame 120° ultra-wide-angle lighting , Latest JEDEC RC 2.0 PCB , Aluminum alloy heat spreader , Built-in Force Flow RGB lighting effect  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/team/dealta-ud/dealta-ud-228x228.jpg",
-        "price": 17600
+        "price": 17600,
+        "discount" :18,
+        "rating" :2.9, 
+        "rated" :3215
     },
     {
         "id":51,
@@ -406,7 +556,10 @@
         "ProductName": "Gigabyte AORUS RGB 16GB (2x8GB) DDR4 4400MHz Desktop Gaming RAM",
         "BaseSpec":  "Memory Size: 16GB DDR4 4400MHz Kit (2 x 8GB) , RGB Fusion 2.0 Supported ,  Latency Timings: 18-19-19-30 ,  Performance Profile: XMP 2.0 ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/gigabyte/aorus-rgb/aorus-rgb-100-228x228.jpg",
-        "price": 17000
+        "price": 17000,
+        "discount" :23,
+        "rating" :4.5, 
+        "rated" :3244
     },
     {
         "id":52,
@@ -414,7 +567,10 @@
         "ProductName": "Thermaltake TOUGHRAM RGB 32GB 3600MHz DDR4 Desktop RAM",
         "BaseSpec":  "Intel XMP 2.0 Ready, TT RGB PLUS, TT AI Voice Control , Real-time temperature, frequency , Razer Chroma & Amazon Alexa RGB sync , 10-layer PCB construction  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/thermaltake/toughram-rgb/toughram-001-228x228.jpg",
-        "price": 16000
+        "price": 16000,
+        "discount" :25,
+        "rating" :4.5, 
+        "rated" :748
     },
     {
         "id":53,
@@ -422,7 +578,10 @@
         "ProductName": "G.Skill Trident Z NEO RGB 32GB DDR4 3600MHz Gaming Desktop RAM",
         "BaseSpec":  "Intel XMP 2.0 (Extreme Memory Profile) Ready , 32GB DDR4 3600MHz Non-ECC ,Tested Latency: 18-22-22-42 , Tested Voltage: 1.35V; Unbuffered  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/trident-z-neo/trident-z-neo-001-228x228.jpg ",
-        "price": 15750
+        "price": 15750,
+        "discount" :10,
+        "rating" :2.5, 
+        "rated" :1014
     },
     {
         "id":54,
@@ -430,7 +589,10 @@
         "ProductName": "G.SKILL Trident Z Royal RGB 8GB DDR4 4600MHz Desktop RAM",
         "BaseSpec":  "Radiant Crystalline Light Bar ,Tested Latency: 18-22-22-42 , 8GB DDR4 4600MHz Non-ECC , Intel XMP 2.0 Ready   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/trident-z-royal/trident-z-royal-001-228x228.jpg",
-        "price": 15500
+        "price": 15500,
+        "discount" :30,
+        "rating" :4.5, 
+        "rated" :4561
     },
     {
         "id":55,
@@ -438,7 +600,10 @@
         "ProductName": "AITC KINGSMAN RGB 32GB DDR4 3200MHz Desktop RAM ",
         "BaseSpec":  "Frequency(Memory Speed): 3200MHz , Latency: CL17 / CL18 / CL16 ,  Supply Voltage: 1.2V / 1.35V , Capacity: 32GB (16GBx2)  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/aitc/kingsman-rgb/kingsman-rgb-dual-228x228.jpg",
-        "price": 13500
+        "price": 13500,
+        "discount" :15,
+        "rating" :3.2, 
+        "rated" :1781
     },
     {
         "id":56,
@@ -446,7 +611,10 @@
         "ProductName": "Corsair Dominator Platinum RGB 16GB 3200MHz DDR4 RAM",
         "BaseSpec":  "16GB DDR4 3200MHz , Tested Voltage: 1.35V , Package Memory Format: DIMM , Heat Spreader: Anodized Aluminum  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/component/ram/corsair/dominator-platinum-228x228.jpg",
-        "price": 9800
+        "price": 9800,
+        "discount" :5,
+        "rating" :3.5, 
+        "rated" :2771
     },
     {
         "id":57,
@@ -454,7 +622,10 @@
         "ProductName": "TEAM NIGHT HAWK 16GB 3600MHz RGB DDR4 Desktop RAM",
         "BaseSpec":  "Using JEDEC Association latest RC 2.0 circuit configuration , Supports ASUS Aura Sync , RGB full-color lighting effects , 1.2~1.4V ultra-low working voltage  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/component/ram/team/night-hawk-8x2/night-hawk-16gb-228x228.jpg",
-        "price": 9600
+        "price": 9600,
+        "discount" :35,
+        "rating" :4.5, 
+        "rated" :4991
     },
     {
         "id":58,
@@ -462,7 +633,10 @@
         "ProductName": "Team Delta RGB White 16GB 3600MHz DDR4 Desktop RAM",
         "BaseSpec":  "Full frame 120° ultra wide angle lighting , QVL approved ,  Supports XMP2.0 , Latest JEDEC RC 2.0 PCB   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/team/delta-rgb-16gb/delta-white-10-228x228.jpg ",
-        "price": 9500
+        "price": 9500,
+        "discount" :5,
+        "rating" :3.1, 
+        "rated" :709
     },
     {
         "id":59,
@@ -470,7 +644,10 @@
         "ProductName": "Thermaltake TOUGHRAM RGB 8GB 4600MHz DDR4 Desktop RAM",
         "BaseSpec":  "16.8M RGB color, 10 super-bright addressable LED , TT RGB PLUS, TT AI Voice Control, Razer Chroma , 10-layer PCB construction, Intel XMP 2.0 ready ,Amazon Alexa RGB sync compatible  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/ram/thermaltake/toughram-rgb/toughram-010-228x228.jpg",
-        "price": 9200
+        "price": 9200,
+        "discount" :10,
+        "rating" :4.8, 
+        "rated" :2514
     },
     {
         "id":60,
@@ -478,7 +655,10 @@
         "ProductName": "Team Dark 16GB DDR4 3200Mhz Gaming Desktop Memory",
         "BaseSpec":  "Capacity 16GB ,Latency: CL16-18-18-38 ,  Aluminum Heat Spreader ,Selected high quality IC chips ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/component/ram/team/team-dark/32gb-1-228x228.jpg",
-        "price": 9000
+        "price": 9000,
+        "discount" :15,
+        "rating" :4.0, 
+        "rated" :3311
     },
     {
         "id":61,
@@ -486,7 +666,10 @@
         "ProductName": "Corsair Obsidian 1000D ATX Full Tower Casing ",
         "BaseSpec":  "Smart Lighting and Fan Control , Telescoping Radiator Trays ,  Massive Cooling Options , Triple Chamber Design  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/corsair/obsidian-1000d/obsidian-1000d-228x228.jpg",
-        "price": 52000
+        "price": 52000,
+        "discount" :20,
+        "rating" :3.8, 
+        "rated" :1661
     },
     {
         "id":62,
@@ -494,7 +677,10 @@
         "ProductName": "Antec TORQUE Black + Red Aluminum ATX Mid Tower Gaming Casing",
         "BaseSpec":  "Motherboard Support: E-ATX (Up to 12x11), ATX, Micro-ATX, ITX ,  Precision Cut Craftsmanship , Unrivaled Performance and Beauty , Extensive Liquid Cooling Support ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/component/casing/antec/torque/torque-1-228x228.jpg",
-        "price": 30000
+        "price": 30000,
+        "discount" :10,
+        "rating" :4.5, 
+        "rated" :3667
     },
     {
         "id":63,
@@ -502,7 +688,10 @@
         "ProductName": "Antec TORQUE Black + White ATX Mid Tower Gaming Casing",
         "BaseSpec":  "Motherboard Support: E-ATX, ATX, Micro-ATX, ITX , Precision Cut Craftsmanship , Unrivaled Performance and Beauty ,Extensive Liquid Cooling Support ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/antec/torque-black-white/torque-black-white-3-228x228.jpg",
-        "price": 28000
+        "price": 28000,
+        "discount" :18,
+        "rating" :2.5, 
+        "rated" :2154
     },
     {
         "id":64,
@@ -510,7 +699,10 @@
         "ProductName": "Corsair Crystal Series 680X RGB ATX High Airflow Tempered Glass Smart Case",
         "BaseSpec":  "High-Speed USB 3.1 GEN-2 TYPE-C port , Three award-winning LL series fans , 48 individually addressable RGB LEDs , Three Crystal Clear Tempered Glass   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/corsair/crystal-series-680x/crystal-series-680x-1-228x228.jpg",
-        "price": 24500
+        "price": 24500,
+        "discount" :10,
+        "rating" :3.5, 
+        "rated" :3951
     },
     {
         "id":65,
@@ -518,7 +710,10 @@
         "ProductName": "Asus ROG STRIX HELIOS GX601 RGB Mid Tower Gaming Casing",
         "BaseSpec":  "Motherboard Support: E-ATX, ATX, Micro-ATX, Mini-ITX , Ready for Serious Cooling , Aura Sync RGB Lighting  , Advanced I/O Panel ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/asus/rog-strix-hellios-gx601-rgb/rog-strix-hellios-gx601-rgb-228x228.jpg",
-        "price": 24500
+        "price": 24500,
+        "discount" :30,
+        "rating" :2.5, 
+        "rated" :2514
     },
     {
         "id":66,
@@ -526,7 +721,10 @@
         "ProductName": "Lian Li O11 Dynamic XL ROG Certified Full Tower Case (White)",
         "BaseSpec":  "Supported Motherboard: E-ATX/ ATX/ M-ATX/ ITX , Tempered Glass: 4.0mm (Left and Front) , GPU: 446 mm, PSU: 220 mm (max 280mm) , 6 x 2.5 Drive Bays   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/lian-li/o11dxl/o11dxl-w-1-228x228.jpg",
-        "price": 18200
+        "price": 18200,
+        "discount" :10,
+        "rating" :4.5, 
+        "rated" :4913
     },
     {
         "id":67,
@@ -534,7 +732,10 @@
         "ProductName": "Antec Striker ITX open Gaming Casing",
         "BaseSpec":  "CNC Cutting Craftsmanship ,  Open-Frame Architecture ,  Motherboard Support: ITX , Up to 4 x 120 mm Fan Support  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/component/casing/antec/striker/gallery-striker-03-228x228.jpg ",
-        "price": 18200
+        "price": 18200,
+        "discount" :40,
+        "rating" :2.5, 
+        "rated" :2013
     },
     {
         "id":68,
@@ -542,7 +743,10 @@
         "ProductName": "Corsair iCUE 5000X RGB Tempered Glass Mid-Tower ATX PC Smart Case - White",
         "BaseSpec":  "Easy Slide-On, Slide Off Side Panel ,  Powerful Directed Airflow , Extreme Cooling Potential ,  Vertical GPU Mount Ready  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/corsair/icue-5000x/icue-5000x-1-228x228.jpg",
-        "price": 16500
+        "price": 16500,
+        "discount" :15,
+        "rating" :4.5, 
+        "rated" :3512
     },
     {
         "id":69,
@@ -550,7 +754,10 @@
         "ProductName": "Gigabyte Aorus C700 Glass Full Tower Gaming Casing",
         "BaseSpec":  " Support Motherboards up to E-ATX , Support 6pcs 2.5” and 4pcs 3.5”/2.5” drive bays ,Up to 420mm Liquid Cooling Compatible , Support ARGB & PWM Connector Hub ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/gigabyte/aorus-c700-glass/gigabyte-aorus-c700-228x228.jpg",
-        "price": 15400
+        "price": 15400,
+        "discount" :20,
+        "rating" :3.0, 
+        "rated" :1425
     },
     {
         "id":70,
@@ -558,7 +765,10 @@
         "ProductName": "Lian Li O11D O11 Dynamic Razer Edition ATX Mid Tower Gaming Case (Black)",
         "BaseSpec":  "(Front/Side)Tempered Glass+Aluminum , ATX Mid Tower Case , Structure Dual chamber ,  M/B type: E-ATX / ATX / Micro-ATX   ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/lian-li/o11d-o11-dynamic-razer-edition/o11d-o11-razer-edition-001-228x228.jpg",
-        "price": 14800
+        "price": 14800,
+        "discount" :5,
+        "rating" :4.5, 
+        "rated" :2514
     },
     {
         "id":71,
@@ -566,7 +776,10 @@
         "ProductName": "Corsair iCUE 5000D AIRFLOW Tempered Glass Mid-Tower ATX Casing ",
         "BaseSpec":  "Compatibility: Micro ATX / ATX / Mini ITX / E-ATX ,Two included CORSAIR AirGuide fans , Room for a 360mm Push Pull Radiator , Side Panel Window ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/corsair/icue-5000d/icue-5000d-01-228x228.jpg",
-        "price": 14000
+        "price": 14000,
+        "discount" :25,
+        "rating" :3.5, 
+        "rated" :3245
     },
     {
         "id":72,
@@ -574,7 +787,10 @@
         "ProductName": " Asus TUF Gaming GT501 White Edition Mid Tower Gaming Casing ",
         "BaseSpec":  "Motherboard Support: E-ATX, ATX, Micro-ATX, Mini-ITX , Aura Lighting with Ventilation  , Optimized Cooling Solution , Mobile Battle Station  ",
         "ProductImage": "https://www.startech.com.bd/image/cache/catalog/casing/asus/tuf-gaming-gt501-white-edition/tuf-gaming-gt501-white-edition-228x228.jpg",
-        "price": 13900
+        "price": 13900,
+        "discount" :20,
+        "rating" :4.5, 
+        "rated" :2961
     }
     
 ]

@@ -5,10 +5,13 @@ import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import Home from './Components/Home/Home';
 import ProductPage from './Components/Home/ProductPage/ProductPage';
 import Footer from './Components/Footer/Footer';
+import ProductCategoryPage from './Components/ProductCategoryPage/ProductCategoryPage';
+import AllProductContext from './Contexts/AllProductContext';
 
 function App() {
   return (
     <div className="App">
+      <AllProductContext>
       <BrowserRouter>
         <Header></Header>
         <Switch>
@@ -22,9 +25,16 @@ function App() {
           <Route path="/products">
             <ProductPage></ProductPage>
           </Route>
+
+          <Route path="/product/:Category">
+            <ProductCategoryPage></ProductCategoryPage>
+          </Route>
+          
+
         </Switch>
         <Footer></Footer>
       </BrowserRouter>
+      </AllProductContext>
     </div>
   );
 }

@@ -11,7 +11,7 @@ const ProductTabs = () => {
 useEffect(()=>{
     setProducts(All);
     console.log("From Product Tab",products);
-},[All])
+},[All,products])
 
 console.log("products are : ",products)
    
@@ -19,146 +19,115 @@ console.log("products are : ",products)
  
     return (
         <div className="col-md-8 col-12 ">
-            <div className="">
-            <Tabs defaultActiveKey="Monitors" id="uncontrolled-tab-example" className="mb-3">
+             <div className="">
+
+        <h1 className="mt-3 fw-bold">All Products</h1>
+            <Tabs defaultActiveKey="Laptops" id="uncontrolled-tab-example" className=" mb-4">
   <Tab eventKey="Laptops" title="Laptops">
-  <div className="row">
+  <div className="row g-4">
     {products.map((product)=>{
       if(product.category === "laptop"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
-          <div className="card card-height m-1">
-  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
-  <div className="card-body">
-    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
-    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
-    </div>
-    <div className="card-footer">
-    <div className="d-flex justify-content-between align-items-center">
-    <button className="btn btn-info">Buy Now</button>
-    <button className="btn btn-primary">More info</button>
-    </div>
-    </div>
-  </div>
-</div>
-              
+          <div className="col-md-4" key={product.id}>
+          <div className="product py-4"> <span className="off bg-success">-{product.discount}% OFF</span>
+              <div className="text-center"> <img alt="" src={product.ProductImage} width="200" /> </div>
+              <div className="about text-center">
+                  <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
+              </div>
+              <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                  <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
+              </div>
+          </div>
+      </div> 
         
          
           );}
-        return ;
+        return null ;
     })}
     </div>
   </Tab>
   <Tab eventKey="Monitors" title="Monitors" >
-  <div className="row">
+  <div className="row g-4 ">
     {products.map((product)=>{
       if(product.category === "monitor"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
-          <div className="card card-height m-1">
-  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
-  <div className="card-body">
-    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
-    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
-    </div>
-    <div className="card-footer">
-    <div className="d-flex justify-content-between align-items-center">
-    <button className="btn btn-info">Buy Now</button>
-    <button className="btn btn-primary">More info</button>
-    </div>
-    </div>
-  </div>
-</div>
-              
-        
-         
+          <div className="col-md-4" key={product.id}>
+            <div className="product py-4"> <span className="off bg-success">-{product.discount}% OFF</span>
+                <div className="text-center"> <img alt="" src={product.ProductImage} width="200" /> </div>
+                <div className="about text-center">
+                    <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
+                </div>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                    <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
+                </div>
+            </div>
+        </div>
           );}
-        return ;
+        return null ;
     })}
     </div>
     
   </Tab>
   <Tab eventKey="Tv" title="Tv">
-  <div className="row">
+  <div className="row g-4 ">
     {products.map((product)=>{
       if(product.category === "Tv"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
-          <div className="card card-height m-1">
-  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
-  <div className="card-body">
-    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
-    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
-    </div>
-    <div className="card-footer">
-    <div className="d-flex justify-content-between align-items-center">
-    <button className="btn btn-info">Buy Now</button>
-    <button className="btn btn-primary">More info</button>
-    </div>
-    </div>
-  </div>
-</div>
-              
-        
-         
+          <div className="col-md-4" key={product.id}>
+            <div className="product py-4"> <span className="off bg-success">-{product.discount}% OFF</span>
+                <div className="text-center"> <img alt="" src={product.ProductImage} width="200" /> </div>
+                <div className="about text-center">
+                    <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
+                </div>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                    <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
+                </div>
+            </div>
+        </div>
           );}
-        return ;
+        return  null;
     })}
     </div>
   </Tab>
   <Tab eventKey="Storage " title="Storage" >
-  <div className="row">
+  <div className="row g-4">
     {products.map((product)=>{
       if(product.category === "storage"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
-          <div className="card card-height m-1">
-  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
-  <div className="card-body">
-    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
-    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
-    </div>
-    <div className="card-footer">
-    <div className="d-flex justify-content-between align-items-center">
-    <button className="btn btn-info">Buy Now</button>
-    <button className="btn btn-primary">More info</button>
-    </div>
-    </div>
-  </div>
-</div>
-              
-        
-         
+          <div className="col-md-4" key={product.id}>
+            <div className="product py-4"> <span className="off bg-success">-{product.discount}% OFF</span>
+                <div className="text-center"> <img alt="" src={product.ProductImage} width="200" /> </div>
+                <div className="about text-center">
+                    <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
+                </div>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                    <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
+                </div>
+            </div>
+        </div>
           );}
-        return ;
+        return  null;
     })}
     </div>
   </Tab>
   <Tab eventKey="Casing" title="Casing" >
-  <div className="row">
+  <div className="row g-4">
     {products.map((product)=>{
       if(product.category === "casing"){
         return (
-          <div className=" col-md-4 col-12  d-flex align-items-center justify-content-center ">
-          <div className="card card-height m-1">
-  <img src={product.ProductImage} className="img-thumbnail" alt="..." />
-  <div className="card-body">
-    <h5 className="card-title text-nowrap">{product.ProductName.slice(0,15)}</h5>
-    <p className="card-text">{product.BaseSpec.slice(0,50)}</p>
-    </div>
-    <div className="card-footer">
-    <div className="d-flex justify-content-between align-items-center">
-    <button className="btn btn-info">Buy Now</button>
-    <button className="btn btn-primary">More info</button>
-    </div>
-    </div>
-  </div>
-</div>
-              
-        
-         
+          <div className="col-md-4" key={product.id}>
+            <div className="product py-4"> <span className="off bg-success">-{product.discount}% OFF</span>
+                <div className="text-center"> <img alt="" src={product.ProductImage} width="200" /> </div>
+                <div className="about text-center">
+                    <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
+                </div>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Buy Now</button>
+                    <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
+                </div>
+            </div>
+        </div>
           );}
-        return ;
+        return   null;
     })}
     </div>
   </Tab>

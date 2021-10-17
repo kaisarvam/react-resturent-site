@@ -1,4 +1,16 @@
-.icon-size{
-    font-size: 25px;
+.icon-sizex{
     
+    font-size: large;
+}
+
+.bg-for-shadow{
+    box-shadow: 5px 5px #00000023;
+}
+.btn-red{
+    background-color: #fbff00b6;
+}
+
+.active-link{
+    background-color: royalblue;
+   
 }

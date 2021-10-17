@@ -12,13 +12,13 @@ setBestSaller(newBestSales);
   console.log("best sallers are",bestSaller);
     return (
       <div className="col-md-4 col-12 ">
-        <h1 className="mt-5"> <strong> Best Sallers </strong> </h1>
+        <h1 className="mt-2 pb-5"> <strong> Best Sallers </strong> </h1>
         
         {
           bestSaller.map((product)=>{
 return(
-  <div className="d-flex justify-content-evenly align-items-center  m-2">
-          <div className="cardx bg-light p-2 m-3">
+  <div className="d-flex justify-content-evenly align-items-center  m-1">
+          <div className="cardx bg-light p-2 m-1">
           <h4 className="text-uppercase "> <strong>{product.ProductName.slice(0,20)} </strong> </h4>
             <div className="d-flex justify-content-evenly align-items-center ">
               <div className="">

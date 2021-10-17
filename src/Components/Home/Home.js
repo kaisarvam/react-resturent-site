@@ -11,9 +11,9 @@ import LimitedTimeTab from './LimitedTimeTab/LimitedTimeTab';
 const Home = () => {
     
     return (
-        <div className="container-fluid">
+        <div className="container-fluid  mt-5">
             
-            <div className="container-fluid">
+            <div className="container-fluid  mt-5 pt-5">
             <div className="row g-5">
             <SliderSection></SliderSection>
             <BannerSection></BannerSection>

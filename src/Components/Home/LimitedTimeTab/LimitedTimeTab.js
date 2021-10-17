@@ -5,7 +5,10 @@ const LimitedTimeTab = () => {
     return (
         
         <div className="col-md-8 col-12 ">
-        <div className="mt-5 pt-4">
+            
+        <div className="mt-2 pt-4">
+
+        <h1 className="mt-3 fw-bold">Limited Time Offers</h1>
         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
 <Tab eventKey="Laptops" title="Laptops">
 <p>Lorem ipsum dolor sit amet consectetur . Perferendis quia ipsa a sequi error odio dolore quibusdam incidunt hic eius. </p>

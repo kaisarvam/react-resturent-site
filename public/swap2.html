@@ -1,0 +1,17 @@
+{
+    allProduct.map((product)=>{
+        return(
+            <div className="col-md-4" key={product.id}>
+            <div className="product py-4"> <span className="off bg-success">-{product.discount}% OFF</span>
+                <div className="text-center"> <img alt="" src={product.ProductImage} width="200" /> </div>
+                <div className="about text-center">
+                    <h5>{product.ProductName.slice(0,30)}</h5> <span>${product.price}</span>
+                </div>
+                <div className="cart-button mt-3 px-2 d-flex justify-content-between align-items-center"> <button className="btn btn-primary text-uppercase">Add to cart</button>
+                    <div className="add"> <span className="product_fav"><i  className="fas fa-cart-plus"></i></span> <span className="product_fav"><i  className="fas fa-info-circle"></i></span> </div>
+                </div>
+            </div>
+        </div>
+        );
+    })
+}

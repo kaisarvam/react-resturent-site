@@ -1,5 +1,6 @@
 .cardx{
-    height: 350px;
+    height: auto;
+    width: 100%;
 }
 
 .main-heading {
